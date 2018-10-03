@@ -1,0 +1,7 @@
+{
+  "name": "AppSQLite",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
