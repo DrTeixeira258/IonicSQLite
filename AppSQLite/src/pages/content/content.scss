@@ -1,5 +1,24 @@
-page-home {
-    .price {
-        color: color($colors, secondary);
-    }
+ion-card {
+    background-color: ghostwhite  !important;
+}
+
+button[actionCard] {
+    background-color: ghostwhite  !important;
+}
+
+ion-card-content h2 {
+    display: inline !important;
+}
+
+ion-card-content h3 {
+    display: inline !important;
+    padding-right: 15rem !important;
+}
+
+ion-toolbar p {
+    margin: 0 !important;
+}
+
+ion-list {
+    margin-bottom: 0 !important;
 }
