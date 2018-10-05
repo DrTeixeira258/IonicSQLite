@@ -50,7 +50,7 @@ export class DatabaseProvider {
   /**
    * Incluindo os dados padrões
    * @param db
-   */
+  */
   private insertDefaultItems(db: SQLiteObject) {
     db.executeSql('select COUNT(id) as qtd from categories', [])
     .then((data: any) => {

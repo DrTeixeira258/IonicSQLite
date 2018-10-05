@@ -3,6 +3,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { IonicPageModule } from 'ionic-angular';
 
 import { ContentPage } from './content';
+import { ProductProvider } from '../../providers/database/product';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,9 @@ import { ContentPage } from './content';
   ],
   exports: [
     ContentPage
+  ],
+  providers: [
+    ProductProvider
   ]
 })
 export class ContentPageModule { }
